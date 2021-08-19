@@ -1,0 +1,30 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+canvas{
+    background:rgb(45,253,201);
+    background: linear-gradient(0deg, rgba(45,253,201,1) 20%, rgba(34,140,195,1) 39%, rgba(188,87,224,1) 46%);
+    border: 1px solid #d3d3d3;
+}
+
+button{
+    background-color: beige;
+    border-radius: 20px;
+    width: 90px;
+    height: 35px;
+    border: 1px solid black;
+    font-size: 25px;
+    padding: 5px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: cyan;
+    color: white;
+}
+
+button:focus{
+    outline:none;
+}
